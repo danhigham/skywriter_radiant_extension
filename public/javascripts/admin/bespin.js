@@ -1,10 +1,6 @@
 var textArea;
 var editor;
 
-function textChanged(oldRange, newRange, newText){
-  textArea.value = editor.value.escapeHTML();  
-}
-
 window.onBespinLoad = function() {
   textArea = $$("textarea.bespin")[0];
   // Get the environment variable.
