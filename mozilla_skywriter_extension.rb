@@ -4,7 +4,7 @@
 class MozillaSkywriterExtension < Radiant::Extension
   version "1.0"
   description "Extension to accomodate Moz Skywriter (bespin)"
-  url "http://yourwebsite.com/mozilla_skywriter"
+  url "http://github.com/danhigham/skywriter_radiant_extension"
   
   # extension_config do |config|
   #   config.gem 'some-awesome-gem
